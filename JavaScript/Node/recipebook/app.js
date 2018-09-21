@@ -24,7 +24,7 @@ app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: false }));
 
 app.get('/', function(req, res){
-    console.log('TEST');
+    res.render('index');
 });
 
 // Server

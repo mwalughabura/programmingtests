@@ -1,0 +1,5 @@
+{> "layout" /}
+
+{<body}
+    THIS IS DUST
+{/body}
